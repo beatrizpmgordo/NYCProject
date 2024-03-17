@@ -3,7 +3,10 @@ body {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.4),
+      rgba(39, 32, 68, 0.4)
+    ),
     url("../images/times-square.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -47,6 +50,57 @@ header a {
   text-decoration: none;
   text-transform: uppercase;
   background: #fff;
+}
+
+footer {
+  color: #fff;
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.7),
+      rgba(39, 32, 68, 0.7)
+    ),
+    url("../images/manhattan.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.7;
+  line-height: 24px;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer a {
+  color: white;
+  opacity: 0.7;
+}
+
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 64px;
 }
 
 @media (max-width: 960px) {
